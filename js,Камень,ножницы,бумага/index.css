@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field_game {
+  width: 600px;
+  height: 500px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: rgb(132, 4, 252);
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.5s all;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(58, 182, 89);
+  transition: 0.5s all;
+}
